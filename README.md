@@ -45,6 +45,8 @@ git log --oneline
 @GeneratedValue(strategy = GenerationType.<type>)
 @ManyToOne
 @JoinColumn(name= "<column-name>")
+@Column()
+@Column(unique = true)
 
 // Lombok
 @NoArgsConstructor
@@ -55,4 +57,10 @@ git log --oneline
 
 Em linguagem inglês
 
+Mensagem sempre indica o que o commit fez
+O commit "Coloca ..."
+O commit "Remove ..."
+O commit "Altera ..."
+
 feat: Adicionando nova feature
+fix: Correções feitas
