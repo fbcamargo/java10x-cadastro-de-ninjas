@@ -69,3 +69,9 @@ Repositorys
 - Sempre interfaces
 - extende JpaRepository
 - ORM (Mapeia a classe e relaciona com uma tabela no DB)
+
+H2
+http://localhost:8080/h2-console
+
+application.properties
+.env
