@@ -5,6 +5,8 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.util.List;
+
 @Entity
 @Table(name="tb_missoes")
 @AllArgsConstructor
@@ -17,5 +19,5 @@ public class MissoesModel {
     private DificuldadeEnum dificuldade;
     // Um para muitos
     @OneToMany(mappedBy = "ninjas")
-    private NinjaModel ninja;
+    private List<NinjaModel> ninjas;
 }

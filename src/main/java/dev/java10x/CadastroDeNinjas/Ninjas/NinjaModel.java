@@ -26,5 +26,5 @@ public class NinjaModel {
     // Muitos para um
     @ManyToOne
     @JoinColumn(name= "missoes_id")
-    private List<MissoesModel> missoes;
+    private MissoesModel missoes;
 }
