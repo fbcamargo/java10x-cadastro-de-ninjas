@@ -64,3 +64,8 @@ O commit "Altera ..."
 
 feat: Adicionando nova feature
 fix: Correções feitas
+
+Repositorys
+- Sempre interfaces
+- extende JpaRepository
+- ORM (Mapeia a classe e relaciona com uma tabela no DB)
