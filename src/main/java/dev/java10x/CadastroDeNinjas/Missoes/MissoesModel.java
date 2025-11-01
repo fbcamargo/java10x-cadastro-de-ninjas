@@ -18,6 +18,6 @@ public class MissoesModel {
     private String nome;
     private DificuldadeEnum dificuldade;
     // Um para muitos
-    @OneToMany(mappedBy = "ninjas")
+    @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninjas;
 }

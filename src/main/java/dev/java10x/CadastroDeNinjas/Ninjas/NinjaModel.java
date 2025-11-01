@@ -25,6 +25,6 @@ public class NinjaModel {
     private String impUrl;
     // Muitos para um
     @ManyToOne
-    @JoinColumn(name= "missoes_id")
+    @JoinColumn(name = "missoes_id")
     private MissoesModel missoes;
 }
