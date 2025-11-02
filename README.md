@@ -75,3 +75,25 @@ http://localhost:8080/h2-console
 
 application.properties
 .env
+
+- Banco de dados
+Querys
+- 
+SELECT * FROM <tabela>
+SELECT * FROM WHRE <coluna> = <valor>
+
+INSERT INTO <tabela>
+(<colunas>...)
+VALUES (<dados>...)
+
+Update count: 1
+
+UPDATE <tabela>
+SET <coluna> = <valor>
+
+ALTER TABLE <tabela>
+ADD COLUMN <coluna> = <valor>
+
+DELETE FROM <table> WHERE <coluna> = <valor>
+
+H2 vale apenas para o ciclo de mémoria
