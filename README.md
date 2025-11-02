@@ -78,7 +78,7 @@ application.properties
 
 - Banco de dados
 Querys
-- 
+
 SELECT * FROM <tabela>
 SELECT * FROM WHRE <coluna> = <valor>
 
@@ -97,3 +97,13 @@ ADD COLUMN <coluna> = <valor>
 DELETE FROM <table> WHERE <coluna> = <valor>
 
 H2 vale apenas para o ciclo de mémoria
+
+- Migrations
+Hibernates
+Versionamento do banco de dados
+LiquiBase
+Flyway
+resources/db/migrations
+Semple informar a versão para tablea
+V2__<operacao>_<tabela>.sql
+Após migrado, não se pode alterar o arquivo
