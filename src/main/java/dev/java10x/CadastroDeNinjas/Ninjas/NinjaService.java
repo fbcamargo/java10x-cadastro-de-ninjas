@@ -18,8 +18,14 @@ public class NinjaService {
         return this.ninjaRepository.findAll();
     }
 
+    // Detalhes de um ninja
     public NinjaModel procurarNinja(Long id) {
         Optional<NinjaModel> ninjaModel = this.ninjaRepository.findById(id);
         return ninjaModel.orElse(null);
+    }
+
+    // Criar um ninja
+    public NinjaModel criarNinja(NinjaModel ninjaModel) {
+        return this.ninjaRepository.save(ninjaModel);
     }
 }
