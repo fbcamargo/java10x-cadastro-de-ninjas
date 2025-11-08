@@ -131,3 +131,6 @@ pode receber o valor do objeto ou um null
 
 /detalhes/{id}
 @PathVariable
+
+@RequestBody
+Serializa um json do cliente para o sistema
