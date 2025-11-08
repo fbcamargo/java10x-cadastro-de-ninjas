@@ -107,3 +107,27 @@ resources/db/migrations
 Semple informar a versão para tablea
 V2__<operacao>_<tabela>.sql
 Após migrado, não se pode alterar o arquivo
+
+- Serializar
+Transferir dados de um sistema para outro ou um dado para outro tipo de dado
+JSON
+
+- Injeção de dependencia
+@Autowired
+Via controller <- recomendado
+
+- JPA
+listAll() <- SELECT * FROM ...
+save() <- INSERT INTO ...
+
+- Erro de serialização
+Quando um model relacionado entra em loop
+serialization loop
+Para corrigir, a relação deve conter:
+@JsonIgnore
+
+- Optional
+pode receber o valor do objeto ou um null
+
+/detalhes/{id}
+@PathVariable

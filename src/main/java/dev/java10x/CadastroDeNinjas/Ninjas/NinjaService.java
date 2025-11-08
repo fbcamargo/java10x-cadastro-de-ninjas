@@ -3,6 +3,7 @@ package dev.java10x.CadastroDeNinjas.Ninjas;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class NinjaService {
@@ -15,5 +16,10 @@ public class NinjaService {
     // Listar todos os ninjas
     public List<NinjaModel> listarNinjas() {
         return this.ninjaRepository.findAll();
+    }
+
+    public NinjaModel procurarNinja(Long id) {
+        Optional<NinjaModel> ninjaModel = this.ninjaRepository.findById(id);
+        return ninjaModel.orElse(null);
     }
 }
