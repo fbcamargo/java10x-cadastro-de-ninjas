@@ -36,7 +36,6 @@ public class NinjaModel {
 
     // Muitos para um
     @ManyToOne
-    @JsonIgnore
     @JoinColumn(name = "missoes_id")
     private MissoesModel missoes;
 }
