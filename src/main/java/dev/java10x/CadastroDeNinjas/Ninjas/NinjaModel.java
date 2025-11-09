@@ -31,6 +31,9 @@ public class NinjaModel {
     @Column(name = "img_url")
     private String impUrl;
 
+    @Column(name = "rank")
+    private String rank;
+
     // Muitos para um
     @ManyToOne
     @JsonIgnore
