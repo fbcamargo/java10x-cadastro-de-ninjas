@@ -152,5 +152,6 @@ Mapeia um DTO e um Model
 Relaciona uma propriedade com outra de uma entidade
 
 - ResponseEntity
+Uma classe que permite personalizar a resposta HTTP com status e corpo
 Retorna uma mensagem para o cliente com status, cabeçalho e outras informações
 Padroniza retornos da API
