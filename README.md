@@ -134,3 +134,19 @@ pode receber o valor do objeto ou um null
 
 @RequestBody
 Serializa um json do cliente para o sistema
+
+- Branchs
+Ramificação do projeto
+É possivel trabalhar em paralelo nas features
+git checkout -b <nome-branch>
+git push origin <nome-branch>
+
+- DTO
+Abstração de uma entidade
+Tira responsabilidade das camadas
+É uma cópia da Entity, mas sem acesso ao banco de dados
+
+- Mapper
+@Component
+Mapeia um DTO e um Model
+Relaciona uma propriedade com outra de uma entidade
