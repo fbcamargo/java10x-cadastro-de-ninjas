@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import java.util.List;
 
@@ -15,6 +16,7 @@ import java.util.List;
 @Table(name = "tb_cadastro")
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString(exclude = "missoes")
 @Data
 public class NinjaModel {
     @Id
