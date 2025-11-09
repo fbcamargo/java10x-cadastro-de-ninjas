@@ -150,3 +150,7 @@ Tira responsabilidade das camadas
 @Component
 Mapeia um DTO e um Model
 Relaciona uma propriedade com outra de uma entidade
+
+- ResponseEntity
+Retorna uma mensagem para o cliente com status, cabeçalho e outras informações
+Padroniza retornos da API
