@@ -134,3 +134,8 @@ pode receber o valor do objeto ou um null
 
 @RequestBody
 Serializa um json do cliente para o sistema
+
+- Branchs
+Ramificação do projeto
+É possivel trabalhar em paralelo nas features
+git checkout -b <nome-branch>
